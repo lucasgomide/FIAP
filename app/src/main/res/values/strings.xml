@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Winner!</string>
+    <string name="computer_win">Computer Rock\'s man!</string>
+    <string name="player_win">Oh Gosh, you win ! </string>
+    <string name="duece">Fuck, is duece!</string>
+    <string name="txtPlayer">Player</string>
+    <string name="txtComputer">Computer</string>
+    <string name="play">I wanna win!</string>
+</resources>

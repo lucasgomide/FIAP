@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tem dado em casa?</string>
+    <string name="computer_win">O computador é fera!</string>
+    <string name="player_win">Boa gamer, você venceu!</string>
+    <string name="duece">Po brother, empatou ):</string>
+    <string name="txtPlayer">Jogador</string>
+    <string name="txtComputer">Computador</string>
+    <string name="play">Jogar</string>
+</resources>
