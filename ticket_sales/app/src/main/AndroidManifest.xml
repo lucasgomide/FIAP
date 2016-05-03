@@ -21,4 +21,12 @@
         </activity>
     </application>
 
-</manifest>
+    <activity android:name=".MainActivitiy">
+        <intent-filter>
+            <action android:name= "MainActivitiy" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+
+    </manifest>
