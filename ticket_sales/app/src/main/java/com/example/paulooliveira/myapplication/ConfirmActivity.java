@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.TextView;
 
 public class ConfirmActivity extends AppCompatActivity {
-    private TextView tvName;
-    private TextView tvDocument;
-    private TextView tvType;
-    private TextView tvPeriod;
+    private TextView tvName =null;
+    private TextView tvDocument =null;
+    private TextView tvType =null;
+    private TextView tvPeriod=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_confirm);
+        setContentView(R.layout.activity_confirm);
         Bundle params = getIntent().getExtras();
 
         tvName = (TextView) findViewById(R.id.tvName);
