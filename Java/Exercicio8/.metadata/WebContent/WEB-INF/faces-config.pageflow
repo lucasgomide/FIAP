@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14617101898300" configfile="/Exercicio8/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="menu.xhtml" x="122" y="562" id="pf14623225374610" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14623225374621 pf14623225595655 pf14623225668877" path="/menu.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="incluir.xhtml" x="338" y="178" id="pf14623225374622" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14623225374621" path="incluir.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="lista.xhtml" x="338" y="562" id="pf14623225595656" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf14623225595655" path="lista.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="pesquisar.xhtml" x="338" y="946" id="pf14623225668878" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf14623225668877" path="pesquisar.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="incluir.xhtml" x="122" y="1330" id="pf14623234513339" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf146232345133310" path="/incluir.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="erro.xhtml" x="338" y="1330" id="pf146232345133311" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf146232345133310" path="erro.xhtml"/>
+  <links id="pf14623225374621" target="pf14623225374622" source="pf14623225374610" outcome="insert"/>
+  <links id="pf14623225595655" target="pf14623225595656" source="pf14623225374610" outcome="all"/>
+  <links id="pf14623225668877" target="pf14623225668878" source="pf14623225374610" outcome="search"/>
+  <links id="pf146232345133310" target="pf146232345133311" source="pf14623234513339" outcome="fail"/>
+</pageflow:Pageflow>
